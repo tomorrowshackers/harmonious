@@ -4,16 +4,18 @@
 		<!-- Portal entry Version 1.0_beta -->
 
 <head>
-	<title>Harmonious_Platform_Systems</title>
-
+	<title>Freedom Publishers Union, a GC Media Publishing Management website</title>
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+	<meta name="description" content="Freedom Publishers Union is fast becoming recognized as one the internet's most resilient free speech safe havens. 
+	Our commitment to freedom of speech and anti-censorship is unparalleled.">
 
 <style>
   body
 {
   font-family: "Source Code Pro", sans-serif; background-color: black;
 
-  background-image: url('images/landing-cover-trans-45.png');
+  background-image: url('https://res.cloudinary.com/dgihigbo4/image/upload/v1708265198/freedompublishersunion/cover_ztr8ms.webp');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -40,26 +42,85 @@
   font-size: 24px;
 }
 
-* 
-{
-  box-sizing: border-box;
+
+/* Style image used to trigger modal */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-.column
-{
-  float: left;
-  padding: 10px;
-  height: 540px;
+#myImg:hover {opacity: 0.7;}
+
+/* Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
 
-.left, .right
-{
-  width: 25%;
+/* Modal content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
 }
 
-.middle
-{
-  width: 50%;
+/* Caption of modal image (image text) - Same width as the image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add animation - Zoom in the modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.5s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The close button */
+.close {
+  position: absolute;
+  top: 15px;
+  left: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% image width on smaller screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
 }
 </style>
 </head>
@@ -71,48 +132,68 @@
 
 	<div align="center" style="font-size:175%">
 		<img src="primary-logo.png" alt="logo-image" width="80" height="80"><br>
-        <b>H</b> a r m o n i o u s _ <b>P</b> l a t f o r m _ <b>S</b> y s t e m s</strong>
+		<strong>H a r m o n i o u s _ P l a t f o r m _ S y s t e m s</strong>
 	</div>
 <br>
 
-  <div align="center">~> <span id="blink_text">_</span></div>
-	
-	<div style="font-size:60%" align="center"><br>
+	<div align="center">
+		<strong>
+			~> <span id="blink_text">_</span><br>
+		</strong>
+		<br>
+		
+		<div>
+			<strong>ANNOUNCEMENT: Harmonious Platform Systems has merged with Freedom Publishers Union.<br>
+			<br>
+			PRESS STATEMENT</strong><br>
+		</div>
+	</div>
 <br>
 
-  <div class="column left">
-		<div style="font-size:200%"><center><b>Publishing</b></center></div>
-		<p><center><a href="site_nav/publishing.html"><img src="pipe/publishing.png" style="border:5px solid white"></a></center></p>
-	</div>
+	<center>
+		<!-- Modal trigger -->
+		<img id="myImg" src="images/press-statement-april-7-2024.webp" alt="Press Statement (April 7, 2024)<br>Authorized by GC Media Publishing Management" style="width:100%;max-width:300px">
 
-	<div class="column middle">
-		<div style="font-size:200%"><center><b>Technology</b></center></div>
-		<p><center><a href="site_nav/technology.html"><img src="pipe/technology.png" style="border:5px solid white"></a></center></p>
-	</div>
+		<!-- Modal -->
+	<div id="myModal" class="modal">
 
-	<div class="column right">
-		<div style="font-size:200%"><center><b>Academy</b></center></div>
-		<p><center><a href="site_nav/academy.html"><img src="pipe/academy.png" style="border:5px solid white"></a></center></p>
+ 		<!-- Close button -->
+	<span class="close">&times;</span>
+
+	 	<!-- Modal content (image) -->
+	<img class="modal-content" id="img01">
+
+		<!-- Modal caption (image text) -->
+	<div id="caption"></div>
 	</div>
-  </div>
+	</center>
+
+<script>
+		// Get modal
+	var modal = document.getElementById("myModal");
+
+		// Get image and insert inside modal - "alt" text is caption
+	var img = document.getElementById("myImg");
+	var modalImg = document.getElementById("img01");
+	var captionText = document.getElementById("caption");
+	img.onclick = function(){
+	  modal.style.display = "block";
+	  modalImg.src = this.src;
+	  captionText.innerHTML = this.alt;
+	}
+
+		// Get <span> element to close modal
+	var span = document.getElementsByClassName("close")[0];
+
+		// When user clicks <span> (x), close modal
+	span.onclick = function() {
+	modal.style.display = "none";
+	}
+</script>
 <br>
 
-    </font>
-  </div>
-
-  <!-- non-class-specified footer -->
-  <div align="center" style="font-size:75%">
-    <p style="color: white">
-    <strong>
-      <script>
-        document.write('&copy; Copyright ');
-        document.write('2021-'); document.write(new Date().getFullYear());
-      </script><br>
-        Harmonious Platform Systems. ABN: 98 317 740 240<br>
-      <br>
-        Images by Pixabay, used under the <a href="https://www.pixabay.com/service/license-summary">Pixabay Content License</a>
-    </strong>
-    </p>
-  </div>
+	<div align="center">
+		<strong>or <a href="index_prompt.html" style="color:white; text-decoration:none"><u>continue</u></a> to site.</strong>
+	</div>
 </body>
 </html>
