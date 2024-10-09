@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<!-- Harmonious Platform Systems \./ -->
+	<!-- Site version 3.0.0 \./ -->
+
+
+<head>
+
+	<title>Freedom Publishers Union, a GC Media Publishing Management website - Centrally Managed Digital Currency - $CMDC</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+<style>
+body
+	{
+	font-family: "Source Code Pro", sans-serif; background-color: black;
+	}
+
+.main 
+	{
+	font-size: 24px;
+	}
+</style>
+
+</head>
+
+
+<body>
+
+<div class="main">
+
+	<font color="white"><div align="left">
+
+		<!-- A simple navigation menu -->
+	<p><strong><a href="../index_prompt.html">&#8592; Return</a></strong></p>
+
+
+	<p><strong>Centrally Managed Digital Currency - $CMDC</strong><br>
+	A digital currency and asset class, built on Gobble Chain private blockchain technology.</p>
+
+<br>
+
+	<font color="white"><div align="left" style="font-size:80%"><b>Centrally Managed Digital Currency</b> is stylized as <b>$CMDC</b>.</div></font><br>
+	
+	<font color="white"><div align="left" style="font-size:80%">A framework for $CMDC was developed in 2020. It is a prototype digital currency and asset class 
+	with a specification which pegs $CMDC to a defined existing currency to determine its value. Due to the way it was developed, it was inherently flawed. The 
+	original value rate was proposed to be 1:1.25. For example, 1 US dollar would equate to 1.25 $CMDC. However, big development changes to the mining process 
+	altered the original proposed value rate and it was adapted to 1:2500.</div></font><br>
+
+	<font color="white"><div align="left" style="font-size:80%">Bitcoin is infamous for being energy and resource intensive during the mining process. Some 
+	analysts speculated that its high rate of energy use could see its eventual demise. $CMDC has been designed specifically to be light on system resources for 
+	both mining and data storage. This helps increase energy efficiency and ease the data storage burden, while being able to mine large amounts. During the mining 
+	process, it may push all cores of the central processing unit(s) to maximum capacity, but memory usage remains moderate. While there is no technical limitation 
+	to the total number of $CMDC blocks that can be put into circulation, there are restrictions on the amount of available blocks in holding, in the social 
+	distribution vaults. This is a necessary component for maintaining centralized management of $CMDC and its assets. Currently, there is an imposed limit of 1 
+	trillion $CMDC, per social distribution vault, spread across a maximum of 4 vaults.</div></font><br>
+
+	<font color="white"><div align="left" style="font-size:80%">$CMDC is mined using a parallel processing and file duplication combination, designed specifically 
+	to operate on Linux-based operating systems. Mined blocks are 'created' from a raw source block, called "block0". To prevent fraudulent duplication of blocks, 
+	each individual block is dated and timestamped, and cannot be altered through traditional file duplication methods of the operating system. Once the mining 
+	process is complete, mined blocks are then refined. Without being refined, the blocks are worthless. During the refining process, the blocks are compressed, 
+	encrypted, and digitally signed with a unique and secret key which is not made public. It is this secret key which is used to identify authenticity of $CMDC 
+	block sets.</div></font><br>
+
+	<font color="white"><div align="left" style="font-size:80%">Once blocks have been mined, refined, encrypted, digitally signed and verified, they are 
+	moved into a social distribution vault for storage and circulation. $CMDC is built on Gobble Chain private blockchain technology. In March 2022, Gobble Chain 
+	received its first major upgrade, version 2.0.</div></font><br>
+
+	<font color="white"><div align="left" style="font-size:80%">In April 2022, we introduced three new tokens (assets) - C3CT Token, POWER8 Token and TIDEIN Token. 
+	Token assets are now fully integrated into $CMDC and Gobble Chain. Token assets are mined and refined through a similar process to that of $CMDC blocks, but 
+	have multiple layers of encryption and use a different verification method to include a unique tokenID. Token assets are valued differently and are limited in 
+	supply.</div></font><br>
+
+	<font color="white"><div align="left" style="font-size:80%">Future upgrades of $CMDC will include integrated support for non-fungible 
+<!-- do not use tab in front of <span>. keep level with line start margin -->
+tokens<span title="A non-fungible token (NFT) is a non-interchangeable unit of data stored on a blockchain, a form of digital ledger, that can be sold and traded.
+Source: Wikipedia">[?]</span>, or NFTs.
+	<!-- return to normal line formatting -->	
+	The specification for NFT integration with Gobble Chain private blockchain technology is yet to be finalized and more information will be provided when 
+	available. When supported, NFT integration will provide the option for rights holders of digital images, audio, video and other digital artwork 
+	creations, to sell the rights to their original creations, as NFTs, which will be purchased using $CMDC.</div></font><br>
+
+	<font color="white"><div align="left" style="font-size:80%"><em>Current version: 5.0 (under development, still)</em></div></font><br>
+
+<br>
+
+	<font color="white"><div align="left" style="font-size:60%">Social distribution vault #1: $CMDC 0</div></font>
+	<font color="white"><div align="left" style="font-size:60%">Social distribution vault #2: $CMDC 0</div></font>
+	<font color="white"><div align="left" style="font-size:60%">Social distribution vault #3: $CMDC 0</div></font>
+	<font color="white"><div align="left" style="font-size:60%">Social distribution vault #4: $CMDC 0</div></font>
+	<font color="white"><div align="left" style="font-size:60%">[Index:C3CT] Issue 1 token supply: 0/100</div></font>
+	<font color="white"><div align="left" style="font-size:60%">[Index:POWER8] Issue 1 token supply: 0/25</div></font>
+	<font color="white"><div align="left" style="font-size:60%">[Index:TIDEIN] Issue 1 token supply: 0/50</div></font>
+
+	<br>
+
+	<font color="white"><div align="left" style="font-size:60%">In circulation: $CMDC 0</div></font>
+	<font color="white"><div align="left" style="font-size:60%">Value rate: 1:2500</div></font>
+
+	<br>
+
+	<font color="white"><div align="left" style="font-size:60%">Token options: </div></font>
+	<font color="white"><div align="left" style="font-size:60%">[Index:C3CT] C3CT Token</div></font>
+	<font color="white"><div align="left" style="font-size:60%">[Index:POWER8] POWER8 Token</div></font>
+	<font color="white"><div align="left" style="font-size:60%">[Index:TIDEIN] TIDEIN Token</div></font>
+
+	<br>
+
+	<font color="white"><div align="left" style="font-size:60%">NFT listings: </div></font>
+	<font color="white"><div align="left" style="font-size:60%"><em>Not yet supported</em></div></font><br>
+
+<br>
+
+	<font color="white"><div align="left" style="font-size:80%"><u>FAQ</u></div></font>
+
+	<br>
+
+	<font color="white"><div align="left" style="font-size:80%"><strong>1. Is it a currency or an asset?</strong><br>
+	Both! $CMDC is the currency and tokens are the assets.</div></font>
+
+	<br>
+
+	<font color="white"><div align="left" style="font-size:80%"><strong>2. If I purchase, can I sell?</strong>
+
+	<br>
+
+	Yes! If you decide to sell, you will receive the exact value in return as your original purchase.</div></font>
+
+	<br>
+
+	<font color="white"><div align="left" style="font-size:80%"><strong>3. Will I lose money?</strong>
+
+	<br>
+
+	We do not consider money invested into purchasing $CMDC and token assets to be a loss.</div></font>
+
+	<br>
+
+	<font color="white"><div align="left" style="font-size:80%"><strong>4. Where does the money go?</strong>
+
+	<br>
+
+	All funds received from $CMDC and token asset purchases are directed into a dedicated holding account.</div></font>
+
+	<br>
+
+	<font color="white"><div align="left" style="font-size:80%"><strong>5. Is it right for me?</strong>
+
+	<br>
+
+	Only you can decide! We are developing a stable and secure platform for a digital currency and asset class. 
+	Much much like traditional stockmarket and cryptocurrency trading, the potential for financial loss is real 
+	and the liability for any loss(es) is the responsibility of consumers.</div></font><br>
+	
+<br>
+
+	<div align="right" style="font-size:80%">------------------------------</div>
+	<div align="right" style="font-size:80%">&copy; Copyright 2021-2024</div>
+	<div align="right" style="font-size:80%">Harmonious Platform Systems</div>
+	<div align="right" style="font-size:80%">ABN: 98 317 740 240</div>
+
+	</div></font>
+</div> 
+
+</body>
+</html>
+
